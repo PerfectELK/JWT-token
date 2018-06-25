@@ -1,0 +1,86 @@
+body{
+    background-color: #ddd;
+}
+.table_login{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	border-spacing: 7px 5px; 
+	border-collapse: separate;
+}
+a{
+	color:#000;
+}
+#emailLogin, #passLogin, {
+	color:#000;
+	max-width: 300px;
+	height: 40px;
+	font-size: 30px;
+	outline: none;
+	box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
+	border: none;
+}
+#email, #phone, #pass, #pass1{
+	margin-left: 30px;
+	color:#000;
+	max-width: 300px;
+	height: 40px;
+	font-size: 30px;
+	outline: none;
+	box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
+	border: none;
+}
+.checkdiv{
+	display: inline-block;
+	margin-left: 20px;
+	height: 30px;
+}
+.fas{
+	font-size: 20px;
+	color:#FF1300FF;
+}
+#successReg{
+	position: absolute;
+	left:50%;
+	top:25%;
+	transform: translate(-50%,0%);
+	font-size: 20px;
+	max-width: 450px;
+}
+#emailforget{
+	border:0px;
+	outline: none;
+	text-align: center;
+	color:#000;
+	width: 270px;
+	height: 33px;
+	font-size: 25px;
+}
+.succesreset{
+	position: absolute;
+	left:50%;
+	top:25%;
+	transform: translate(-50%,0%);
+	font-size: 20px;
+	max-width: 450px;
+}
+.exit{
+	float: right;
+}
+.info{
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 20px;
+}
+.userinfo{
+	margin-top: 100px;
+}
+.invite{
+	max-width: 500px;
+	max-height: 700px;
+}
+#delete{
+	margin-top: 30px;
+}
